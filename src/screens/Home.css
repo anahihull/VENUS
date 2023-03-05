@@ -12,7 +12,7 @@
 .box{
   margin: 0;
   width: 100%;
-  height: 100vh;
+  height: 300vh;
   background-image: linear-gradient(#FF419C, #DEB7D3);
 }
 .header{
@@ -117,7 +117,7 @@
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.3 ease 0s;
+  transition: all 0.3s ease 0s;
   margin: 10px;
 
 }
@@ -195,6 +195,7 @@
 }
 
 .learnButton .learnBtn button{
+<<<<<<< Updated upstream
 
     position: relative;
     font-size: 200%;
@@ -226,9 +227,73 @@
       
       }
   
+=======
+ 
+  margin-top: 40px;
+  font-weight: 1000;
+  color: #000000;
+  padding: 30px 30px;
+  background: #f5eef1;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  
+>>>>>>> Stashed changes
+
+
+<<<<<<< Updated upstream
 
 
 
 
+=======
+.learnButton .LearnBtn button:hover{
+ margin: 100px;
+}
+
+h1 {
+
+  margin-top: 20px;
+  font-size: 65px;
+  color: #f2eaea;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 
+p {
+
+  color: #f2eaea;
+  text-justify:distribute;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+ .LearnMore {
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 1000;
+  color: #000000;
+  padding: 30px 30px;
+  background: #f5eef1;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+.LearnMore:hover{
+  transform: scale(1.1);
+
+ }
+
+ .Link {
+  text-decoration: none;
+  color: #000000;
+ }
+
+>>>>>>> Stashed changes

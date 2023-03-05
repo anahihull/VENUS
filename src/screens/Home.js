@@ -49,7 +49,14 @@ const Home = () =>{
             </header>
 
             <div className="learnButton">
-                 <a href="#" class="learnBtn"><button>I WANT TO LEARN</button></a>
+                <center>
+                         <a href="/learn" class="learnBtn"><button>I WANT TO LEARN</button></a>
+                </center>
+        </div>
+        <div className="learnButton">
+                <center>
+                <a href="/quiz" class="learnBtn"><button>I HAVE SYMPTOMS</button></a>
+                </center>
                 </div>
                 <div className="sympBtn">
                  <a href="#" class="sympButton"><button>I HAVE SYMPTOMS</button></a>
