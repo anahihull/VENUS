@@ -16,14 +16,14 @@
   background-image: linear-gradient(#FF419C, #DEB7D3);
 }
 .header{
-  
+
   height: 100px;
   display: flex;
   background-color: #f5eef1;
   justify-content: space-between;
   align-items: center;
   padding: 5px 10%;
-  
+
 }
 
 .header .logo{
@@ -114,7 +114,7 @@
   cursor: pointer;
   transition: all 0.3 ease 0s;
   margin: 10px;
-  
+
 }
 
 .header .mySearch .btnsearch button:hover{
@@ -183,21 +183,47 @@
   }
 }
 
+.learnButton{
+  text-align: center;
+  margin-top: 300px;
+  
+}
+
 .learnButton .learnBtn button{
- 
-  font-weight: 1000;
-  color: #000000;
-  padding: 30px 30px;
-  background: #f5eef1;
-  border: none;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: all 0.3 ease 0s;
+
+    position: relative;
+    font-size: 200%;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 26px;
+    background-image: linear-gradient(90deg, #ff0ab1, #d6649d, #e8a5e0, #e4b7df, #3b0425, #79022a);
+    background-size: 400%;
+    background-position: 0% 0%;
+    
+    
+    }
+.sympBtn {
+      text-align: center;
+      margin-top: 100px;
   
+    } 
+    
+    .sympBtn .sympButton button{
+
+      position: relative;
+      font-size: 200%;
+      color: #f9f9f9;
+      border: none;
+      border-radius: 26px;
+      background-image: linear-gradient(90deg, #ff0ab1, #d6649d, #e8a5e0, #e4b7df, #3b0425, #79022a);
+      background-size: 400%;
+      background-position: 0% 0%;
+      
+      }
   
 
-}
 
-.learnButton .LearnBtn button:hover{
-  margin: 100px;
-}
+
+
+
+

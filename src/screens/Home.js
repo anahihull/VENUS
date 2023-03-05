@@ -7,6 +7,7 @@ import logo from "./img/logoficial1.png";
 const Home = () =>{
     return(
     
+    
 
         <body className='Home'>
             <div className="box">
@@ -44,13 +45,20 @@ const Home = () =>{
                         </div>
            
             </div>
+
             </header>
 
             <div className="learnButton">
-        <a href="#" class="learnBtn"><button>I WANT TO LEARN</button></a>
-        </div>
+                 <a href="#" class="learnBtn"><button>I WANT TO LEARN</button></a>
+                </div>
+                <div className="sympBtn">
+                 <a href="#" class="sympButton"><button>I HAVE SYMPTOMS</button></a>
+                </div>
         
             </div>
+        
+       
+        
 
         </body>
    
