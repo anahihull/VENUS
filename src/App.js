@@ -8,6 +8,7 @@ function App() {
         <h1>Sexkipedia</h1>
         <button>I want to learn</button>
         <button>I have symptoms</button>
+        <button>si funciono</button>
 
       </header>
     </div>
