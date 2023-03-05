@@ -102,6 +102,11 @@
   border: none;
   border-radius: 50px;
   padding: 0px 5px;
+
+}
+
+.mySearch{
+  display: flex;
 }
 
 .header .mySearch .btnsearch button{
@@ -151,8 +156,8 @@
 }
 
 .header .overlay a{
-  padding: 15px;
-  font-size: 36px;
+  padding: 15rem;
+  font-size: 36rem;
   display: block;
   transition: all 0.3s ease 0s;
   font-weight: 700;
@@ -166,26 +171,26 @@
 
 .header .overlay .close{
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 65px;
+  top: 20rem;
+  right: 45rem;
+  font-size: 65rem;
 }
 
-@media screen and (max-height: 450px){
+@media screen and (max-height: 450rem){
   .header .overlay a{
-    font-size: 20px;
+    font-size: 20rem;
   }
 
   .header .overlay .close{
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+    font-size: 40rem;
+    top: 15rem;
+    right: 35rem;
   }
 }
 
 .learnButton{
   text-align: center;
-  margin-top: 300px;
+  margin-top: 300rem;
   
 }
 
@@ -195,7 +200,7 @@
     font-size: 200%;
     color: #f9f9f9;
     border: none;
-    border-radius: 26px;
+    border-radius: 26rem;
     background-image: linear-gradient(90deg, #ff0ab1, #d6649d, #e8a5e0, #e4b7df, #3b0425, #79022a);
     background-size: 400%;
     background-position: 0% 0%;
