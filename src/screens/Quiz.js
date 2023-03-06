@@ -8,7 +8,7 @@ const Quiz = () =>{
         <div className="box">
         <header className="header">
         <div className="logo">
-                <img src={logo} alt="logoprov" width={110}></img>
+               <a href="/"> <img src={logo} alt="logoprov" width={110}></img> </a>
             </div>
             <nav>
                 <ul className='nav-links'>
@@ -43,7 +43,7 @@ const Quiz = () =>{
         </header>
         <center>
         <h1>Quiz for Common Symptoms</h1>
-        <p>I have </p>
+        <p>Symptoms Questionnaire </p>
         </center>
 
         </div>

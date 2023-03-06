@@ -1,19 +1,18 @@
 import './Home.css';
 import React from 'react';
 import logo from "./img/logoficial1.png";
-
-
+import UncontrolledExample from "./Carousel.js";
 
 const Home = () =>{
     return(
-    
-    
-
         <body className='Home'>
             <div className="box">
             <header className="header">
             <div className="logo">
+                <a href="/">  
                     <img src={logo} alt="logoprov" width={110}></img>
+                </a>
+                  
                 </div>
                 <nav>
                     <ul className='nav-links'>
@@ -45,28 +44,19 @@ const Home = () =>{
                         </div>
            
             </div>
-
+         
             </header>
-
-            <div className="learnButton">
-                <center>
-                         <a href="/learn" class="learnBtn"><button>I WANT TO LEARN</button></a>
-                </center>
-        </div>
-        <div className="learnButton">
-                <center>
-                <a href="/quiz" class="learnBtn"><button>I HAVE SYMPTOMS</button></a>
-                </center>
+            <UncontrolledExample/>
+            <div className='buttonsLinks'>
+                <div className="learnButton">
+                            <a href="/learn" class="learnBtn"><button>I WANT TO LEARN</button></a>
                 </div>
-                <div className="sympBtn">
-                 <a href="#" class="sympButton"><button>I HAVE SYMPTOMS</button></a>
+                <div className="learnButton">
+                    <a href="/quiz" class="learnBtn"><button>I HAVE SYMPTOMS</button></a>
+                    </div>
                 </div>
-        
             </div>
-        
        
-        
-
         </body>
    
 

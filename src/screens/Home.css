@@ -12,9 +12,18 @@
 .box{
   margin: 0;
   width: 100%;
-  height: 300vh;
+  height: 100vh;
   background-image: linear-gradient(#FF419C, #DEB7D3);
 }
+
+.learnBox {
+  margin: 0;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#FF419C, #DEB7D3);
+}
+
 .header{
 
   height: 100px;
@@ -42,6 +51,8 @@
 
 .header .nav-links{
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .header .nav-links li{
@@ -190,12 +201,10 @@
 
 .learnButton{
   text-align: center;
-  margin-top: 300rem;
   
 }
 
 .learnButton .learnBtn button{
-<<<<<<< Updated upstream
 
     position: relative;
     font-size: 200%;
@@ -206,48 +215,19 @@
     background-size: 400%;
     background-position: 0% 0%;
     
-    
     }
 .sympBtn {
       text-align: center;
       margin-top: 100px;
   
     } 
-    
-    .sympBtn .sympButton button{
-
-      position: relative;
-      font-size: 200%;
-      color: #f9f9f9;
-      border: none;
-      border-radius: 26px;
-      background-image: linear-gradient(90deg, #ff0ab1, #d6649d, #e8a5e0, #e4b7df, #3b0425, #79022a);
-      background-size: 400%;
-      background-position: 0% 0%;
-      
-      }
-  
-=======
- 
-  margin-top: 40px;
-  font-weight: 1000;
-  color: #000000;
-  padding: 30px 30px;
-  background: #f5eef1;
-  border: none;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: all 0.3 ease 0s;
-  
->>>>>>> Stashed changes
-
-
-<<<<<<< Updated upstream
+   
+.carousel img {
+  max-height: 20rem;
+}
 
 
 
-
-=======
 .learnButton .LearnBtn button:hover{
  margin: 100px;
 }
@@ -264,10 +244,11 @@ h1 {
 
 p {
 
-  color: #f2eaea;
+  color: #f2eaea85;
   text-justify:distribute;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 0;
 }
 
 
@@ -290,10 +271,21 @@ p {
   transform: scale(1.1);
 
  }
+ header{
+  margin-bottom: 2rem;
+ }
 
  .Link {
   text-decoration: none;
   color: #000000;
  }
 
->>>>>>> Stashed changes
+.w-50 {
+  margin: auto;
+}
+.buttonsLinks{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 2rem;
+}

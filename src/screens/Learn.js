@@ -7,10 +7,10 @@ import {Carousel} from 'react-responsive-carousel';
 const Learn = () =>{
     return(
         <body className='Home'>
-        <div className="box">
+        <div className="learnBox">
         <header className="header">
         <div className="logo">
-                <img src={logo} alt="logoprov" width={110}></img>
+               <a href="/"><img src={logo} alt="logoprov" width={110}></img></a>
             </div>
             <nav>
                 <ul className='nav-links'>
